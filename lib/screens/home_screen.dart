@@ -22,9 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Belajar QR Code"),
+        title: Text("TEMUKAN TEMAN ANDA DI TWITTER"),
         centerTitle: true,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
       body: Column(
@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Container(
             height: 10,
             decoration: BoxDecoration(
-              color: Colors.deepPurple,
+              color: Colors.blue,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(16.0),
                 bottomRight: Radius.circular(16.0),
@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
             height: 10.0,
           ),
           Image.network(
-              "https://image.freepik.com/free-vector/wall-background-scanning-qr-code_23-2147591989.jpg"),
+              "https://cdns.klimg.com/newshub.id/news/2016/03/21/49846/664xauto-ini-rupa-si-burung-twitter-dari-masa-ke-masa-1603219.jpg"),
           SizedBox(
             height: 10.0,
           ),
@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               decoration: BoxDecoration(
-                color: Colors.deepPurple,
+                color: Colors.blue,
                 borderRadius: BorderRadius.all(Radius.circular(5.0)),
               ),
             ),
@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Center(
                   child: kode == ""
                       ? Text(
-                          "Hasil Scan",
+                          "Hasil Teman",
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w300,
@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               decoration: BoxDecoration(
-                color: Colors.deepPurple,
+                color: Colors.blue,
                 borderRadius: BorderRadius.all(Radius.circular(5.0)),
               ),
             ),
